@@ -1,0 +1,23 @@
+# CODEOWNERS file for prueba-gh-rulesets
+# Este archivo define quién es responsable de revisar cambios en diferentes partes del código
+# 
+# Más información: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Propietario global - se requiere aprobación para cualquier cambio
+* @Jhont3
+
+# Archivos específicos con reviewers designados
+prueba.md @valentina-alvarezmu17
+
+# Archivos de documentación - requieren aprobación del owner
+*.md @Jhont3
+README.md @Jhont3
+
+# Archivos de configuración sensibles - requieren aprobación especial
+.github/ @Jhont3
+.gitignore @Jhont3
+
+# Si tienes más colaboradores, puedes agregar líneas como:
+# /src/ @Jhont3 @otro-usuario
+# /docs/ @Jhont3 @documentacion-team
+# *.js @Jhont3 @javascript-reviewers
