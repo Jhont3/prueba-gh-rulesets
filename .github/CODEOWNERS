@@ -13,8 +13,19 @@ prueba.md @valentina-alvarezmu17
 *.md @Jhont3
 README.md @Jhont3
 
-# Archivos de configuración sensibles - requieren aprobación especial
+# CONFIGURACIÓN CRÍTICA - SOLO @Jhont3 puede modificar
+# Toda la carpeta .github (incluyendo workflows, CODEOWNERS, etc.)
 .github/ @Jhont3
+.github/* @Jhont3
+.github/**/* @Jhont3
+
+# Protección específica para workflows de GitHub Actions
+.github/workflows/ @Jhont3
+.github/workflows/* @Jhont3
+.github/workflows/**/* @Jhont3
+
+# Protección específica para archivos críticos
+.github/CODEOWNERS @Jhont3
 .gitignore @Jhont3
 
 # Si tienes más colaboradores, puedes agregar líneas como:
